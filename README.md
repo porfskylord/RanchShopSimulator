@@ -1,2 +1,2 @@
-![Ranch Shop](screenshots/SaveHome.png.png)
-![Checkout Cart](screenshots/SaveHome.png.png)
+![Ranch Shop](src/main/resources/com/lordscave/ranchshopsimulator/itemimages/animal/shop.png)
+![Checkout Cart](src/main/resources/com/lordscave/ranchshopsimulator/itemimages/animal/cart.png)

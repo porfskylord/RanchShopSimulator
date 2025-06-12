@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="220.0" prefWidth="195.0" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: grey;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lordscave.ranchshopsimulator.controller.ItemCardController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="195.0" prefWidth="200.0" spacing="10.0" style="-fx-padding: 10px;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <StackPane prefHeight="100.0" prefWidth="140.0">
+               <ImageView fx:id="itemImage" fitHeight="100.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+            </StackPane>
+
+            <Label fx:id="itemPrice" prefHeight="17.0" prefWidth="160.0" text="50">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="itemName" prefHeight="17.0" prefWidth="160.0" text="Item Name" />
+            <Button mnemonicParsing="false" onAction="#handleAddToCart" prefHeight="25.0" prefWidth="180.0" style="-fx-background-color: Black; -fx-background-radius: 5;" text="Add to Cart" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
